@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt\Buyit\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt\Buyit\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt\Buyit\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt\Buyit\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt-Example Work\Buyit\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt-Example Work\Buyit\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt-Example Work\Buyit\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\BuyIt-Example Work\Buyit\DAL\obj\Debug\DAL.pdb

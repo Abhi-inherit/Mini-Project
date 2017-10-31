@@ -1,0 +1,38 @@
+  public List<MovieProperties> selectallmovies()
+      {
+          DataTable dt = new DataTable();
+          dt = DB_obj.getdatatable("select_allmovie");
+          List<MovieProperties> _list = new List<MovieProperties>();
+              
+
+              foreach (DataRow dr in dt.Rows)
+              {
+                 DateTime currentdate = DateTime.Now;
+              DateTime upcomdate = Convert.ToDateTime(dr["releasing_date"]);
+              TimeSpan difference =   upcomdate-currentdate ;
+              if (difference.TotalHours > 0)
+              {
+
+                  _list.Add(new MovieProperties
+                  {
+                      movie_id = Convert.ToInt32(dr["movie_id"]),
+                      //fk_district_id = Convert.ToInt32(dr["fk_district_id"]),
+                      //fk_theatre_id = Convert.ToInt32(dr["fk_theatre_id"]),
+                      movie_name = dr["movie_name"].ToString(),
+                      movie_discription = dr["movie_discription"].ToString(),
+                      actors = dr["actors"].ToString(),
+                      releasing_date = Convert.ToDateTime(dr["releasing_date"]),
+                      creation_date = Convert.ToDateTime(dr["creation_date"]),
+                      update_date = Convert.ToDateTime(dr["update_date"]),
+                      trailer = dr["trailer"].ToString(),
+                      movie_image = "/Images/" + dr["movie_image"].ToString(),
+
+                  });
+              }
+                  
+                  
+              
+
+          }
+              return _list;
+         

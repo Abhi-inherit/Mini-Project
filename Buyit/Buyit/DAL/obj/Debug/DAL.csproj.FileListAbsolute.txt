@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
