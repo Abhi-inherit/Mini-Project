@@ -3,5 +3,6 @@ C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\bin\Debug\BLL.pdb
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\bin\Debug\DAL.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\bin\Debug\DAL.pdb
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\obj\Debug\BLL.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\BLL\obj\Debug\BLL.pdb

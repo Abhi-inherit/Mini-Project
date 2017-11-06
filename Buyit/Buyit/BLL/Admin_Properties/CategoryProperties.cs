@@ -19,5 +19,8 @@ namespace BLL.Admin_Properties
 
         public string subCategory3 { get; set; }
         public int subCategory3_ID { get; set; }
+
+        public string Branch { get; set; }
+        public string Item { get; set; }
     }
 }

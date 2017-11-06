@@ -16,6 +16,7 @@ namespace DAL
 
         public SqlConnection GetConnection()
         {
+            System.GC.Collect();
             SqlConnection con = new SqlConnection("Data Source=LAPTOP-I5Q4TKGM\\SQLEXPRESS;Initial Catalog=Buyit;Integrated Security=True");
 
             if (con.State == ConnectionState.Open)

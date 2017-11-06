@@ -16,6 +16,8 @@ namespace BLL.Admin_Manager
     {
         DBHelper DB = new DBHelper();
         public BLL.Admin_Properties.CategoryProperties CatPro = new BLL.Admin_Properties.CategoryProperties();
+        private SortedList s1 = new SortedList();
+
 
         public List<CategoryProperties> SelectFirstCategory()
         {
@@ -35,6 +37,46 @@ namespace BLL.Admin_Manager
 
             return _list;
 
+        }
+
+        public string StockDetail(string branch, string item)
+        {
+            s1.Clear();
+            s1.Add("Branch", branch);
+            s1.Add("Item", item);
+            return DB.ExecuteProcedure(s1, "StockItem");
+        }
+
+        public List<CategoryProperties> SelectBranches()
+        {
+            DataTable dt = new DataTable();
+            dt = DB.getdatatable("SelectBranches");
+            List<CategoryProperties> _list = new List<CategoryProperties>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                _list.Add(new CategoryProperties
+                {
+                    Branch = dr["BranchName"].ToString()
+                }
+                );
+            }
+            return _list;
+        }
+
+        public List<CategoryProperties> SelectItems()
+        {
+            DataTable dt = new DataTable();
+            dt = DB.getdatatable("SelectCompliItems");
+            List<CategoryProperties> _list = new List<CategoryProperties>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                _list.Add(new CategoryProperties
+                {
+                    Item = dr["ItemName"].ToString()
+                }
+                );
+            }
+            return _list;
         }
 
         public List<ProductProperties> SelectMensProducts()

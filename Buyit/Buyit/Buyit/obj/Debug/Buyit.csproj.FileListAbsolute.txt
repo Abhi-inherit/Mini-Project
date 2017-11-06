@@ -1,9 +1,11 @@
-C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\obj\Debug\Buyit.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\Buyit.dll.config
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\Buyit.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\Buyit.pdb
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\BLL.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\DAL.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\BLL.pdb
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\bin\DAL.pdb
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\obj\Debug\Buyit.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\obj\Debug\Buyit.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\obj\Debug\Buyit.dll
 C:\Users\HP\Desktop\Abhi\Mini Project\Buyit\Buyit\Buyit\obj\Debug\Buyit.pdb

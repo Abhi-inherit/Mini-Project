@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,6 +76,7 @@
     <Content Include="bootstrap\img\glyphicons-halflings.png" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="Complimentary.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\easy-responsive-tabs.css" />
@@ -85,6 +88,7 @@
     <Content Include="Enter_Brand.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="GridTest.aspx" />
     <Content Include="icons.aspx" />
     <Content Include="images\1.png" />
     <Content Include="images\2.png" />
@@ -1267,6 +1271,13 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Complimentary.aspx.cs">
+      <DependentUpon>Complimentary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complimentary.aspx.designer.cs">
+      <DependentUpon>Complimentary.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1280,6 +1291,13 @@
     </Compile>
     <Compile Include="Enter_Brand.aspx.designer.cs">
       <DependentUpon>Enter_Brand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridTest.aspx.cs">
+      <DependentUpon>GridTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridTest.aspx.designer.cs">
+      <DependentUpon>GridTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="icons.aspx.cs">
       <DependentUpon>icons.aspx</DependentUpon>
