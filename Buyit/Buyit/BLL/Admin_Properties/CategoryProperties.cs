@@ -22,5 +22,8 @@ namespace BLL.Admin_Properties
 
         public string Branch { get; set; }
         public string Item { get; set; }
+
+        public string BranchCode { get; set; }
+        public int StockItem { get; set; }
     }
 }

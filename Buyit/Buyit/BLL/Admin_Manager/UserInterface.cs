@@ -18,6 +18,12 @@ namespace BLL.Admin_Manager
         public BLL.Admin_Properties.CategoryProperties CatPro = new BLL.Admin_Properties.CategoryProperties();
         private SortedList s1 = new SortedList();
 
+        public DataTable GetCurrentStock1()
+        {
+            DataTable dt = new DataTable();
+            dt = DB.getdatatable("GetCurrentStock");
+            return dt;
+        }
 
         public List<CategoryProperties> SelectFirstCategory()
         {
@@ -61,6 +67,34 @@ namespace BLL.Admin_Manager
                 );
             }
             return _list;
+        }
+
+        public IDictionary<string,int> SelectStockDetails()
+        {
+            DataTable dt = new DataTable();
+            dt = DB.getdatatable("SelectTotalConsumptionOfStock");
+            IDictionary<string, int> dictionary = new Dictionary<string, int>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                int StockDetails = Convert.ToInt32(dr["Column1"]);
+                string BranchCode = Convert.ToString(dr["BranchCode"]);
+                dictionary.Add(new KeyValuePair<string, int>(BranchCode, StockDetails));
+            }
+            return dictionary;
+        }
+
+        public IDictionary<string, int> GetCurrentStock()
+        {
+            DataTable dt = new DataTable();
+            dt = DB.getdatatable("GetCurrentStock");
+            IDictionary<string, int> dictionary = new Dictionary<string, int>();
+            foreach (DataRow dr in dt.Rows)
+            {
+                int StockDetails = Convert.ToInt32(dr["Column1"]);
+                string BranchCode = Convert.ToString(dr["ItemName"]);
+                dictionary.Add(new KeyValuePair<string, int>(BranchCode, StockDetails));
+            }
+            return dictionary;
         }
 
         public List<CategoryProperties> SelectItems()
